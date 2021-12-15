@@ -2,21 +2,14 @@ import React from 'react'
 
 
 
-const InsideImages = () => {
-
-
-
-    const [username, setUserName] = React.useState('');
-    const [lastname, setLastName] = React.useState('');
-    const [userWeight, setUserWeight] = React.useState('');
-    const [userHeght, setUserHeight] = React.useState('')
-    const [array, setarrayData] = React.useState([]);
+const InsideImages = ({username,lastname,userWeight,userHeight,setUserName,setLastName,setUserHeight,setUserWeight,array,setarrayData}) => {
+    console.log(username,lastname,userWeight,userHeight,setUserName,setLastName,setUserHeight,setUserWeight,array,setarrayData)
 
     const allDataProcess = (e) => {
         e.preventDefault()
         console.log('me apretaste')
 
-        if ((!username.trim()) || (!lastname.trim()) || (!userWeight.trim()) || (!userHeght.trim())) {
+        if ((!username.trim()) || (!lastname.trim()) || (!userWeight.trim()) || (!userHeight.trim())) {
             console.log('mas de uno puede haber quedado vacio');
 
 
@@ -35,8 +28,8 @@ const InsideImages = () => {
                 username,
                 lastname,
                 userWeight,
-                userHeght,
-                calcImc(userWeight, userHeght)
+                userHeight,
+                calcImc(userWeight, userHeight)
             ]);
 
 
@@ -96,7 +89,7 @@ const InsideImages = () => {
 
                 </div>
                 <div className="input-field col s5">
-                    <input placeholder="Escriba su Nombre" id="person_height" type="text" className="validate" onChange={e => setUserHeight(e.target.value)}></input>
+                    <input placeholder="Escriba su altura" id="person_height" type="text" className="validate" onChange={e => setUserHeight(e.target.value)}></input>
 
                 </div>
                 <div className="input-field col s6">

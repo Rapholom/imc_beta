@@ -1,6 +1,6 @@
 import React from 'react'
 
-const SecDos = () => {
+const SecDos = ({username,lastname,userWeight,userHeight,setUserName,setLastName,setUserHeight,setUserWeight,array,setarrayData}) => {
     return (
         <div className="container">
             <div className='row sectiontwo'>
@@ -22,7 +22,7 @@ const SecDos = () => {
 
                 <div className="col m6 s12">
                     <div className="secDosRight z-depth-2">
-                            Hola
+                            {username}
                     </div>
                 </div>
 
