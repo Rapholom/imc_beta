@@ -1,0 +1,85 @@
+.navbarImc {
+  width: 100%;
+  margin: 100px 0;
+}
+
+.customh1 {
+  margin: 0;
+  width: 100%;
+  background: red;
+  color: azure;
+  font-size: 15px;
+}
+
+.imagenPrimeraTop {
+  background-image: url("./imgs/topImage_imc.png");
+  background-repeat: no-repeat;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: 480px;
+  padding: 2.5%;
+}
+
+.imcTopBoard {
+  background: #F3F4F6;
+  width: 100%;
+  display: inline-block;
+  opacity: 85%;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.infoBoard {
+  background: none;
+  width: 80%;
+  height: 380px;
+  display: inline-block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+.infoBoard h4.textDownMain {
+  color: #26a69a;
+  text-align: center;
+  font-family: "Smooch", sans-serif;
+  font-weight: 400;
+  font-size: 5rem;
+  text-decoration: underline;
+}
+.infoBoard ul {
+  background: #F3F4F6;
+  width: 100%;
+  padding: 4% 2.5%;
+  border-radius: 8px;
+}
+
+.sectiontwo {
+  background: #DDA4C3;
+  width: 100%;
+  margin: 30px 0;
+  border-radius: 7px;
+  padding: 5% 2.5%;
+}
+.sectiontwo .secDosLeft {
+  width: 100%;
+  background: #DDA4C3;
+  height: auto;
+  border: solid 4px #F3F4F6;
+  padding: 4% 2.5%;
+  border-radius: 8px;
+}
+.sectiontwo .secDosRight {
+  width: 100%;
+  background: #F3F4F6;
+  height: 440px;
+  border-radius: 10px;
+}
+
+.sectionThree {
+  background: #00EDDF;
+  width: 100%;
+  margin: 30px 0;
+  border-radius: 7px;
+  padding: 5% 2.5%;
+}/*# sourceMappingURL=ownImcStyle.css.map */

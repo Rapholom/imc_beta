@@ -1,23 +1,33 @@
 import logo from './logo.svg';
 import './App.css';
 
+import imgtop01 from './imgs/topImage_imc.png'
+
+
+
+import NavbarImc from './components/NavbarImc';
+import InsideImages from './components/InsideImages';
+import SecDos from './components/SecDos';
+import SecTres from './components/SecTres';
+
+
+
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NavbarImc />
+
+
+      <div className='imagenPrimeraTop'>
+        <InsideImages />
+
+      </div>
+      <SecDos />
+      <SecTres />
+
+
+
     </div>
   );
 }
