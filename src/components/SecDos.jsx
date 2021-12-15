@@ -22,7 +22,7 @@ const SecDos = () => {
 
                 <div className="col m6 s12">
                     <div className="secDosRight z-depth-2">
-
+                            Hola
                     </div>
                 </div>
 
